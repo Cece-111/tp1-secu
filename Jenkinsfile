@@ -20,7 +20,7 @@ pipeline {
   post {
     failure {
       emailext(
-        to: 'jeux.de.cv.04@gmail.com',
+        to: 'cv.04@laposte.net',
         subject: "❌ ECHEC : ${env.JOB_NAME} #${env.BUILD_NUMBER}",
         body: """
 Bonjour,
